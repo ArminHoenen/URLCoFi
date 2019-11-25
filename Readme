@@ -15,7 +15,7 @@ java -jar /path/to/jar/simpleBlackfeat.jar /path/to/testdoc.txt
 #Data
 The data provided is separated into 
 - chartrigram, word, wordbigram and url lists, closely oriented at the format of An Crúbadán
-- lists of letters, letter combinations and terms for binary scenarios used in our experiments
+- lists of letters, letter combinations and terms for binary scenarios used in our experiments (if there is no file langBLetterCombinations.txt or alike, then these files have been empty)
 For Kumyk and Nogai, the urls are provided from which their corpora have been composed.
 For English, we used the Brown Corpus. For all other languages, we used Wikipedia dumps from 2019 (for Nogai distractors
 from 1st of September).
