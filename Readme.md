@@ -1,7 +1,18 @@
-# LCT-maj -- language identification using writing systems and toponyms
+# LCT-maj: language identification using writing systems and toponyms
 
-This is the documentation for two Discrimination of Similar Languages in Web Information Retrieval for 
-Less Resourced Languages scenarios: Nogai and Maori. 
+This is the page for the download of a language identification tool for low resource languages (LRLs), especially smaller languages. It is designed to be a binary classifier to be used in Web Information Retrieval for those languages. Two major problems may occur when trying to build a corpus for a small or low resource language from web data:
+- purity: often, some larger closely related sister languages are extremely similar and may lead to a significant noise level
+- lack of training data: the fact that many statistical language identification tools need language labeled data as input while Web Information Retrieval for LRLs needs language identification to tell apart the target language from close sister languages is a kind of vicious circle.
+LCT-maj resolves both problems by 
+- not relying on any labeled training data, but only on linguistic descriptions
+- answering only the question "Is a certain document written in the target language", not which language it is written in.
+
+scenarios: Nogai and Maori. 
+## Please quote:
+Two LRL \& Distractor Corpora from Web Information Retrieval and a Small Case Study in Language Identification without Training Corpora. In Proceedings of the first SLTU-CCURL Workshop collocated with LREC 2020.
+
+## License:
+If not contradicted by the hosts policies, the data is available under a CC BY NC license.
 
 ## Exectuable
 The jar takes two arguments,
@@ -51,8 +62,6 @@ of the original information.
 For any further questions or access to the main corpora, please contact:
 hoenenarmin@gmail.com
 
-## Please quote:
-Two LRL \& Distractor Corpora from Web Information Retrieval and a Small Case Study in Language Identification without Training Corpora. In Proceedings of the first SLTU-CCURL Workshop collocated with LREC 2020.
 
 ### References
 Scannell, K. P. (2007). The Cŕubad́an project: Corpus building for under-resourced languages. In Building and Exploring Web Corpora: Proceedings of the 3rd Web as Corpus Workshop, volume 4, pages 5–15.
