@@ -1,13 +1,15 @@
 # LCT-maj: language identification using writing systems and toponyms
 
-This is the page for the download of a language identification tool for low resource languages (LRLs), especially smaller languages. It is designed to be a binary classifier to be used in Web Information Retrieval for those languages. Two major problems may occur when trying to build a corpus for a small or low resource language from web data:
+This is the page for the download of
+
+a) *a language identification tool* for low resource languages (LRLs), especially smaller languages. It is designed to be a binary classifier to be used in Web Information Retrieval for those languages. Two major problems may occur when trying to build a corpus for a small or low resource language from web data:
 - purity: often, some larger closely related sister languages are extremely similar and may lead to a significant noise level
 - lack of training data: the fact that many statistical language identification tools need language labeled data as input while Web Information Retrieval for LRLs needs language identification to tell apart the target language from close sister languages is a kind of vicious circle.
 LCT-maj resolves both problems by 
 - not relying on any labeled training data, but only on linguistic descriptions
 - answering only the question "Is a certain document written in the target language", not which language it is written in.
+b) two corpora for test scenarios of a): Nogai and Maori. 
 
-scenarios: Nogai and Maori. 
 ## Please quote:
 Two LRL \& Distractor Corpora from Web Information Retrieval and a Small Case Study in Language Identification without Training Corpora. In Proceedings of the first SLTU-CCURL Workshop collocated with LREC 2020.
 
