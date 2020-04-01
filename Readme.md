@@ -1,7 +1,7 @@
 This is the documentation for two Discrimination of Similar Languages in Web Information Retrieval for 
 Less Resourced Languages scenarios: Nogai and Maori. 
 
-#Usage
+# Usage
 The jar takes two arguments,
 - the path to the to be classified document and 
 - a boolean logging operator
