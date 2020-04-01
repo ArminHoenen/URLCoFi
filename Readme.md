@@ -43,34 +43,9 @@ Naturally, research goals are thus slightly different. While An Crúbadán gener
 we include all tokens. While Crúbadán does not include punctuation, we provide for it.
 In all our files space is the column separator. In our character trigram files, space is (just as in Crúbadán) 
 converted to "<" for wordstart and to ">" for wordend and in addition to Crúbadán to"_" between two tokens.
-The basis of the chartrigrams are the untokenized texts, for word lists and word bigrams, we do tokenize:
+The basis of the chartrigrams are the untokenized texts, for word lists and word bigrams, we do tokenize (in Java syntax):
 
-### in Java syntax
-replaceAll("\\.\\.\\.", " ... ")
-
-.replaceAll("\\.", " . ")
-
-.replaceAll("\\?", " ? ")
-
-.replaceAll("!", " ! ")
-
-.replaceAll(";", " ; ")
-
-.replaceAll(":", " : ")	
-
-.replaceAll(",", " , ")	
-
-.replaceAll("\\(", " ( ")	
-
-.replaceAll("\\)", " ) ")	
-
-.replaceAll("\\[", " [ ")	
-
-.replaceAll("\\]", " ] ")
-
-.replaceAll("  +", " ")	
-
-.trim();
+replaceAll("\\.\\.\\.", " ... ").replaceAll("\\.", " . ").replaceAll("\\?", " ? ").replaceAll("!", " ! ").replaceAll(";", " ; ").replaceAll(":", " : ").replaceAll(",", " , ").replaceAll("\\(", " ( ").replaceAll("\\)", " ) ").replaceAll("\\[", " [ ").replaceAll("\\]", " ] ").replaceAll("  +", " ").trim();
 
 For the Brown corpus, we stripped tags and detokenized with the inverted tokenizer for the char trigrams. 
 We do not lowercase since in some languages such as German case may carry grammatical information. Either way,
