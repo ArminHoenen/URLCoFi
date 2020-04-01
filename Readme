@@ -1,7 +1,7 @@
 This is the documentation for two Discrimination of Similar Languages in Web Information Retrieval for 
 Less Resourced Languages scenarios: Nogai and Maori. 
 
-#Usage#
+#Usage
 The jar takes two arguments,
 - the path to the to be classified document and 
 - a boolean logging operator
@@ -12,7 +12,7 @@ java -jar /path/to/jar/simpleBlackfeat.jar /path/to/testdoc.txt -l
 java -jar /path/to/jar/simpleBlackfeat.jar --help
 java -jar /path/to/jar/simpleBlackfeat.jar /path/to/testdoc.txt 
 
-**Corpora Data**
+#Corpora Data
 The data of the corpora provided is separated into 
 - chartrigram, word, wordbigram and url lists, closely oriented at the format of An Crúbadán
 - lists of letters, letter combinations and terms for binary scenarios used in our experiments; data is compressed into a zip-File. Inside there is one folder per scenario. It is recommended that you put a copy of the jar into each of the subfolders in order to start classifying there directly.
