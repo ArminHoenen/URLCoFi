@@ -9,12 +9,15 @@ a) *a language identification tool* for low resource languages (LRLs), especiall
 LCT-maj resolves both problems by 
 - not relying on any labeled training data, but only on linguistic descriptions
 - answering only the question "Is a certain document written in the target language", not which language it is written in.
+
 b) two corpora for test scenarios of a): Nogai and Maori. 
 
-## Please quote:
+## Citation
+If you use either the tool or data from the corora, please quote
+
 Two LRL \& Distractor Corpora from Web Information Retrieval and a Small Case Study in Language Identification without Training Corpora. In Proceedings of the first SLTU-CCURL Workshop collocated with LREC 2020.
 
-## License:
+## License
 If not contradicted by the hosts policies, the data is available under a CC BY NC license.
 
 ## Exectuable
