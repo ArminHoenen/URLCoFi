@@ -15,7 +15,7 @@ b) two corpora for test scenarios of a): Nogai and Maori.
 ## Citation
 If you use either the tool or data from the corora, please quote
 
-Two LRL \& Distractor Corpora from Web Information Retrieval and a Small Case Study in Language Identification without Training Corpora. In Proceedings of the first SLTU-CCURL Workshop collocated with LREC 2020.
+_A. Hoenen, C. Koc, M. Rahn. 2020. Two LRL \& Distractor Corpora from Web Information Retrieval and a Small Case Study in Language Identification without Training Corpora. In Proceedings of the first SLTU-CCURL Workshop collocated with LREC 2020._
 
 ## License
 If not contradicted by the hosts policies, the data is available under a CC BY NC license.
